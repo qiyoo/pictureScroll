@@ -1,0 +1,69 @@
+*{padding:0px;margin: 0px;list-style: none;border: 0;}
+    #show{
+      position:relative;
+      width:1920px;
+      height: 280px;
+      margin: 0 auto;
+    }
+    #show .focusImg {
+      position: absolute;
+      width: 1920px;
+      height: 280px;
+      overflow: hidden
+    }
+    #show .focusImg li{
+      float: left;
+      display: inline;
+    }
+    #show .focusImg .img{
+      position: absolute;
+      width: 19999px;
+      display: block;
+    }
+    #show .btns{
+      position: absolute;
+      width: 60px;
+      height: 80px;
+      overflow: hidden;
+      top: 115px;
+      cursor: pointer;
+      
+    }
+    #show .prev{
+      left: 100px;
+      background: url(../images/btn_show.png);
+      background-position:0 80px;
+    }
+    #show .next{
+      right: 100px;
+      background: url(../images/btn_show.png);
+      background-position:0 0;
+    }
+    #show .dots{
+      bottom: 10px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+    }
+    .dots i{
+      display: inline-block;
+      line-height: 99;
+      width: 10px;
+      height: 10px;
+      margin: 0 3px;
+      background: #414140;
+      font-size: 0px;
+      overflow: hidden;
+      cursor: pointer;
+      border: #414140 2px solid;
+      -webkit-border-radius: 7px;
+      -moz-border-radius: 7px;
+      border-radius: 7px;
+    }
+    .dots i.active{
+      background: #3cd2f1;
+      cursor: default;
+      border: #3cd2f1 2px solid;
+      cursor: pointer;
+    }
